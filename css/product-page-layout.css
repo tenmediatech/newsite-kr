@@ -474,6 +474,11 @@ video {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+
+  #kr-main-logo {
+    width: 120px;
+  }
+
   .image-section1 {
     margin: 34% 5% 10% 5%;
     padding: 20px;
