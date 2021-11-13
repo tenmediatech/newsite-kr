@@ -1,0 +1,712 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130875598-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130875598-1');
+  </script>
+
+  <!-- bootstrap 5.1 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- roboto.ttf -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- din 2014. also linked in css -->
+
+  <link rel="stylesheet" href="/css/contactus.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/careers.css">
+  <link rel="stylesheet" href="/css/product-page-layout.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png" />
+
+  <link rel="manifest" href="/resources/icons/site.webmanifest">
+  <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#06263b">
+  <meta name="apple-mobile-web-app-title" content="Kessel Run">
+  <meta name="application-name" content="Kessel Run">
+  <meta name="msapplication-TileColor" content="#cdd4de">
+  <meta name="theme-color" content="#06263b">
+
+  <title>Kessel Run | Code. Deploy. Win.</title>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Top Nav bar -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark main-kr-nev">
+        <a href="/index.html"><img src="/resources/2C-HorizontalComboLogo-Light-Updated.svg" alt="Kessel Run Logo"
+            width="64%"></a>
+        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item"><a class="nav-link page-active" href="/index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about/about-us.html">ABOUT US</a></li>
+
+            <!-- PRODUCT LINES dropdown menu -->
+            <div class="dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="/product-lines/OpsC2.html">PRODUCT LINES</a>
+              </li>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/product-lines/OpsC2.html">OPERATIONAL C2</a>
+                <a class="dropdown-item" href="/product-lines/WingC2.html">WING C2</a>
+                <a class="dropdown-item" href="/product-lines/ADCP.html">ALL-DOMAIN COMMON PLATFORM</a>
+              </ul>
+            </div>
+
+            <!-- PARTNERSHIPS dropdown menu -->
+            <div class="dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="/partners/partnerships.html">PARTNERSHIPS</a>
+              </li>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="/partners/government-engagement/new-gov.html">GOVERNMENT</a></li>
+                <li><a class="dropdown-item" href="/partners/industry-outreach/new-ind.html">INDUSTRY</a></li>
+                <li><a class="dropdown-item" href="/partners/community-engagement/new-comm.html">COMMUNITY</a></li>
+              </ul>
+            </div>
+
+            <li class="nav-item"><a class="nav-link" href="/careers/new-careers.html">CAREERS</a></li>
+
+          </ul>
+        </div>
+
+        <!-- Sidebar menu -->
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <!-- <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i> -->
+            <img src="/resources/right-menu-icon.svg" alt="right-menu-icon" width="50px" alt="right-menu-icon"
+              style="margin-top: 20px;">
+          </a>
+
+
+
+          <div class="hide-on-large-screen">
+            <a class="page-active" href="/index.html">HOME</a>
+            <a href="/about/about-us.html">ABOUT US</a>
+
+            <div class="dropdown">
+              <a href="/product-lines/OpsC2.html">PRODUCT LINES
+                <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/product-lines/OpsC2.html">OPERATIONAL C2</a>
+                <a class="dropdown-item" href="/product-lines/WingC2.html">WING C2</a>
+                <a class="dropdown-item" href="/product-lines/ADCP.html">ALL-DOMAIN COMMON PLATFORM</a>
+              </ul>
+            </div>
+            <br>
+            <div class="dropdown">
+              <a href="/partners/partnerships.html">
+                PARTNERSHIPS
+                <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/partners/government-engagement/new-gov.html">GOVERNMENT</a>
+                <a class="dropdown-item" href="/partners/industry-outreach/new-ind.html">INDUSTRY</a>
+                <a class="dropdown-item" href="/partners/community-engagement/new-comm.html">COMMUNITY</a>
+              </ul>
+            </div>
+
+            <a href="/careers/new-careers.html">CAREERS</a>
+          </div>
+          <a href="/news/new-news.html">NEWS ARCHIVE</a>
+          <a href="/careers/new-faq.html">FAQ</a>
+          <a href="/contact-us/new-contact.html">CONTACTS</a>
+
+          <!-- Social Icons from Bootstrap icons -->
+          <div class="sidepanel-social-icons">
+            <a class="d-inline" href="https://www.airforce.com/" target="_blank"><img
+                src="/resources/images/US_Air_Force_Logo.svg" width="20%" alt="US Air Force Logo"></a>
+
+            <a class="d-inline" href="https://www.youtube.com/channel/UCqrPQYmIxbk3Wo_w594pEEA" target="_blank">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a class="d-inline" href="https://www.linkedin.com/company/kesselrun/" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
+            <a class="d-inline" href="https://www.instagram.com/kesselrunaf/" target="_blank"><i
+                class="bi bi-instagram"></i></a>
+            <a class="d-inline" href="https://www.facebook.com/kesselrunUSAF" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+            <a class="d-inline" href="https://twitter.com/kesselrunAF" target="_blank">
+              <i class="bi bi-twitter"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <a class="openbtn" onclick="openNav()">
+          <img src="/resources/right-menu-icon.svg" alt="right-menu-icon" width="50px" alt="right-menu-icon">
+        </a>
+
+      </nav>
+
+    </header>
+
+    <!-- Main page -->
+    <main id="main" onclick="closeNav()">
+
+      <!-- 1st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back1">
+          <img src="/resources/images/hompage-images/homepage-acc-kr-agreement.jpg"
+            alt="ACC & KR REACH HISTORIC AGREEMENT">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section1">
+            <h1 class="display-4 text-heading">ACC & KR REACH HISTORIC AGREEMENT</h1>
+            <p>Air Combat Command and Kessel Run signed a user agreement Sept. 30, outlining the details of how the
+              software development and acquisitions unit will operationally support the major command.</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#imageModal1">
+              VIEW ARTICLE
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModal1Label" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <img src="/resources/images/hompage-images/homepage-acc-kr-agreement.jpg" width="100%"
+                      class="modal-image pull-left img-responsive news-article-image"
+                      alt="ACC & KR REACH HISTORIC AGREEMENT">
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+
+                    <h4 class="modal-title">ACC & KR REACH HISTORIC AGREEMENT</h4>
+                    <p style="color: #2DC6E0;">Press Release</p>
+                    <hr class=" newsline1">
+
+                    <p class="card-text"><span style="color: #2DC6E0" ;>BOSTON (20 Oct 2021)</span> – Air Combat
+                      Command and Kessel Run signed a user agreement Sept. 30, outlining the details of how the
+                      software development and acquisitions unit will operationally support the major command.</p>
+
+                    <p class="card-text">This is the first user agreement signed between a Major Air Force Command
+                      and a software factory under DoDI 5000.87 Operation Of The Software Acquisition Pathway. Its
+                      signing showcases the advances that have been made by Kessel Run toward modernizing the Air
+                      Operation Center (AOC) Weapon System. The User Agreement formalizes the existing
+                      relationship between ACC and Kessel Run.</p>
+
+                    <p class="card-text">“We now have the foundation for pushing out war-winning capability to
+                      joint force commanders at the speed of need,” said Jacquelynn Torson, the test and
+                      integration chief with Kessel Run. “We published a memo called the ‘Guardianship Model’ in
+                      November of last year, the User Agreement is an iteration on that. It enhances our
+                      relationship with ACC because it provides our commitment to them. We will be including them
+                      in every step of the way to deliver the operational capabilities they need and want.”</p>
+
+                    <p class="card-text">The United States Air Force Life Cycle Management Center, Detachment 12,
+                      also known as Kessel Run, has a proven track record in enhancing efficiency, saving cost and
+                      modernizing the way the Air Force operates with its agile software development. With its
+                      user-centered approach to development, Kessel Run’s mission is to rapidly deliver combat
+                      capabilities to warfighters and revolutionize the Air Force software acquisition process.
+                    </p>
+
+                    <p class="card-text">“We have an ever-evolving, battle tested and proven method for delivering
+                      operational capabilities through our applications,” said Col. Brian Beachkofski, commander
+                      of Kessel Run. “Kessel Run’s applications are operational, and this user agreement outlines
+                      how we will enhance ACC with these capabilities.”</p>
+
+                    <address>
+                      <span style="color: #2DC6E0;">Air Force Life Cycle Management Center</span><br>
+                      Detachment 12, Kessel Run<br>
+                      Media and Communications Engagement<br>
+                      Email:
+                      <code><a href="mailto:media@kr.af.mil" style="color: #2DC6E0;">media@kr.af.mil</a></code><br>
+                    </address>
+
+                  </div>
+
+                </div>
+
+                <br>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 2st Image with text on top -->
+
+      <div class="imagebg" id="move-page-down">
+        <div class="image-back2">
+          <img src="/resources/images/hompage-images/homepage-uber-for-air-power.jpg" alt="Uber for air power">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section2">
+            <h1 class="display-4 text-heading">UBER FOR AIR POWER</h1>
+            <p>The future that Kessel Run software is creating is one where we match targets to available assets
+              dynamically, much like Uber matches riders to drivers. To be successful, the Air Force also needs to
+              maximize asset availability, which means having great maintenance and pilot readiness tools. These
+              applications need to be available in the right classification to the right people at the right time.
+              That’s possible through Kessel Run’s infrastructure and platform capabilities.</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#videoModal2">
+              WATCH VIDEO
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="videoModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="videoModal2Label" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                  onclick="document.getElementById('video').pause();"></button>
+              </div>
+
+              <div class="modal-body row">
+                <div class="full-video-wrap">
+                  <video id="video" preload="none" playsinline autoplay controls muted
+                    poster="/resources/poster-image/poster-for-home.jpg">
+                    <source src="/resources/videos/Air-Power-On-Demand.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3rd Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back1">
+          <img src="/resources/images/hompage-images/homepage-kr-jigsaw-to-nato.jpg"
+            alt="KESSEL RUN DELIVERS JIGSAW TO NATO FORCES">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section3">
+            <h1 class="display-4 text-heading">KESSEL RUN DELIVERS JIGSAW TO NATO FORCES</h1>
+            <p>Kessel Run recently partnered with Headquarters, Supreme Allied Command Transformation (HQ SACT) to
+              deliver a software application, used to plan air-to-air refueling (AAR) operations, to two NATO units as
+              part of a foreign military sale (FMS) earlier this year.</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#imageModal3">
+              VIEW ARTICLE
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModal3Label" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <img src="/resources/images/news/JIGSAW-to-NATO.jpg" width="100%"
+                      class="modal-image pull-left img-responsive news-article-image" alt="KR JIGSAW TO NATO">
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+
+                    <h4 class="modal-title">KESSEL RUN DELIVERS JIGSAW TO NATO FORCES</h4>
+                    <p style="color: #2DC6E0;">Press Release</p>
+                    <hr class=" newsline1">
+
+                    <p class="card-text"><span style="color: #2DC6E0" ;>BOSTON (13 Oct 2021)</span> – Kessel Run
+                      recently partnered with Headquarters, Supreme Allied Command Transformation (HQ SACT) to
+                      deliver a software application, used to plan air-to-air refueling (AAR) operations, to two
+                      NATO units as part of a foreign military sale (FMS) earlier this year.</p>
+
+                    <p class="card-text">The United States Air Force Life Cycle Management Center, Detachment 12,
+                      also known as Kessel Run, developed JIGSAW; the tanker fuel planning application in use
+                      since 2017. It has helped save the DoD more than $500 million dollars in fuel costs and
+                      greatly reduced the time associated with planning refueling missions, enhancing combat
+                      capabilities through its increased coordination.</p>
+
+                    <p class="card-text">With the stewardship HQ SACT, JIGSAW was successfully deployed for
+                      evaluation at two NATO units: at the Deployable Air Command and Control Centre (DACCC), in
+                      Poggio-Renatico, Italy, Sept. 9-14, during an independent NATO exercise; and at the Combined
+                      Air Operations Centre (CAOC) South in Torrejon, Spain, Sept. 15-16, during the Torrejon
+                      Advantage Drill (TAD).</p>
+
+                    <p class="card-text">“By engaging in this strategic partnership with Kessel Run - we have been
+                      able to acquire the licence for JIGSAW, which has allowed NATO to experiment with that
+                      software,” said Lt. Col. Jonathan Clow, the NATO FMS Officer for JIGSAW with the Royal
+                      Canadian Air Force’s Supreme Allied Command Transformation Headquarters. “The purpose of
+                      this is two-fold: to build a strategic relationship with Det 12, in order to help inform and
+                      advise the creation of an organic software development at HQ SACT, as well as to experiment
+                      and accelerate requirement and capability development on this particular need, which is
+                      air-to-air refueling planning.”</p>
+
+                    <p class="card-text">Clow said the exercises gave the NATO units the ability to thoroughly
+                      test the application; the results of which were its immediate implementation as the primary
+                      means to execute refueling missions.</p>
+
+                    <p class="card-text">“Compared to the legacy method, the actual planning time to generate a
+                      plan is 800% faster and overall the process requires half the people, for half the time,”
+                      Clow said. “When the user says ‘I trust this. This works the way I think about doing this
+                      task and I don't need to use that legacy method anymore,’ that is the ultimate datapoint -
+                      the user.”</p>
+
+                    <p class="card-text">Kessel Run has a proven track record in enhancing efficiency, saving cost
+                      and modernizing the way the Air Force operates with its agile software development. With its
+                      user-centered approach to development, Kessel Run’s mission is to rapidly deliver combat
+                      capabilities to warfighters and revolutionize the Air Force software acquisition process.
+                    </p>
+
+                    <p class="card-text">“We are preparing our allies for tomorrow's fights today by providing
+                      them with software solutions that warfighters love,” said Col. Brian Beachkofski, commander
+                      of Kessel Run. “Kessel Run’s applications are operational, and our allies are getting to
+                      experience that first hand.”</p>
+
+                    <address>
+                      <span style="color: #2DC6E0;">Air Force Life Cycle Management Center</span><br>
+                      Detachment 12, Kessel Run<br>
+                      Media and Communications Engagement<br>
+                      Email:
+                      <code><a href="mailto:media@kr.af.mil" style="color: #2DC6E0;">media@kr.af.mil</a></code><br>
+                    </address>
+
+                  </div>
+
+                </div>
+
+                <br>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 4th Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back1">
+          <img src="/resources/images/hompage-images/homepage-kr-slapshot-save-lives.jpg" alt="KR Slapshot save lives">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section2">
+            <h1 class="display-4 text-heading">KESSEL RUN'S SLAPSHOT HELPS SAVE LIVES</h1>
+            <p>Kessel Run’s Slapshot application was recently used in what is being said is the largest non-combatant
+              evacuation in history by U.S. and coalition forces, with a total of 122,300 people airlifted from Kabul,
+              Afghanistan.</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#imageModal4">
+              VIEW ARTICLE
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModal4Label" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+
+                    <iframe width="100%" height="460" src="https://www.youtube.com/embed/EXq98Z-g_Ak"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+
+                    <h4 class="modal-title">KESSEL RUN’S SLAPSHOT SAVES LIVES</h4>
+                    <p style="color: #2DC6E0;">Press Release</p>
+                    <hr class=" newsline1">
+
+                    <p class="card-text"><span style="color: #2DC6E0" ;>BOSTON (28 September 2021)</span> – Kessel
+                      Run’s Slapshot application was recently used in what is being said is the largest
+                      non-combatant evacuation in history by U.S. and coalition forces, with a total of 122,300
+                      people airlifted from Kabul, Afghanistan.</p>
+
+                    <p class="card-text">The operation went from the end of July to Aug. 30, according to State
+                      Department estimates. Due to increasing threats by the Taliban and increased pressure to
+                      pull-out all military forces in the area; the Department of Defense’s priority was to get
+                      American citizens, Afghans with special immigrant visa applications, and other vulnerable
+                      Afghans out of the country. Military aircraft, mainly C-17 Globemaster IIIs, were leaving
+                      every 45 minutes from the Hamid Karzai International Airport.</p>
+
+                    <p class="card-text">When U.S. Air Forces Central and the Department of Defense expressed this
+                      dire situation to Kessel Run; they were ready to answer the call.</p>
+
+                    <p class="card-text">“AFCENT Airmen, alongside AMC, coalition, and joint partners, applied
+                      incredibly innovative solutions to complex problem-sets in order to airlift tens of
+                      thousands of Americans and U.S. personnel, allies and partners and Afghans at special risk
+                      from Kabul, up to and including the joint tactical exfiltration of ground troops,” said Lt.
+                      Gen. Greg Guillot, Ninth Air Force (AFCENT) commander. “Kessel Run’s programmers more than
+                      kept pace, rapidly iterating critical applications like Slapshot in order to meet the
+                      evolving needs of leaders, planners, and operators across the world in real-time.”</p>
+
+                    <p class="card-text">Slapshot, a mission and air-combat sortie flow organizer, was designed by
+                      software engineers at Kessel Run, officially known as Air Force Life Cycle Management Center
+                      Detachment 12. The software was developed as a replacement to enter or pull data and perform
+                      quality checks that were normally manually performed by weapon system operators, or even
+                      pilots themselves in the field. This information is compiled to develop the Master Air
+                      Attack Plan, and visualizes the pairing of air combat missions with a respective air tasking
+                      order (ATO).</p>
+
+                    <p class="card-text">In regards to what it takes just to get aircraft safely off the ground
+                      and into crowded airspace, that’s no simple task. Before Slapshot, operators or pilots used
+                      excel documents or visualizations similar to a gantt chart. Today, the application features
+                      tasks in real-time, individual tasks that support the commander's intent, and then assets
+                      carrying out each task.</p>
+
+                    <p class="card-text">“During the evacuation in Afghanistan, it’s been mostly used as a very,
+                      very effective tool for situational awareness,” said Gabriel Stines, a software engineer
+                      with Kessel Run that works on Slapshot.</p>
+
+                    <p class="card-text">Stines added that it was used around the clock in operations, as well as
+                      to brief different American and coalition commanders, air traffic controllers and even the
+                      Secretary of Defense and President of the United States.</p>
+
+                    <p class="card-text">“We’ve seen truly record use of Slapshot,” said Stines. “Up until (the
+                      beginning of the evacuation), we hadn’t had this many people use the platform.”</p>
+
+                    <p class="card-text">Naturally, when software is used at this scale, there are bound to be
+                      bugs or difficulty with scaling its capabilities. Stines said that due to how Slapshot was
+                      built and having liaison officers to relay life saving information on the ground in
+                      Afghanistan, software engineers here back home at Kessel Run were able to field and fix
+                      issues in real-time.</p>
+
+                    <p class="card-text">On August 23rd - only nine days after the Taliban unexpectedly seized the
+                      capital - more than 21,000 people were evacuated in what was also the largest <i>single
+                        day</i> airlift in history.</p>
+
+                    <p class="card-text">Stines said that there was a brief outage on that day, due to Slapshot
+                      accommodating anywhere from 20 to 200 missions. After fixing the outage, which would cause
+                      the application’s user interface to take 3-6 minutes to load, he and other members of the
+                      Kessel Run team cut those times down to around 3 seconds, saving precious time, resources
+                      and lives.</p>
+
+                    <p class="card-text">Slapshot was also being used for passenger manifest, he said, which
+                      involved arguably the most difficult part of the evacuation - the logistics.</p>
+
+                    <p class="card-text">“We had all these people who needed food, visas and housing, and we
+                      needed to know what to do with them after landing at their destination,” Stines said.
+                      “Slapshot helped with that situational awareness and met the needs of the coalition effort.
+                      Having our (liaison officers) fielding issues and being able to iterate on the system
+                      parallel with us, and on the same day fixing problems completely… that just doesn't happen
+                      anywhere else.”</p>
+
+                    <p class="card-text">Stines said that they were able to dry-run the changes they were making
+                      in a sort of digital staging area, while liaison officers - with literally the
+                      boots-on-the-ground, in some cases - could communicate with end users to fully realize their
+                      immediate needs. Using DevSecOps and other internal, agile processes, Kessel Run could test,
+                      iterate and deliver Slapshot’s multitenant features at the stakeholders discretion.</p>
+
+                    <p class="card-text">Josh Pritchett, product lead at Kessel Run and liaison officer with the
+                      609th U.S. Air Force Air Operations Center, said that from initial contact to solution
+                      delivery, he was involved the entire time acting as a customer representative to ensure
+                      mission success.</p>
+
+                    <p class="card-text">Pritchett added that he also helped explain the software, and translate
+                      jargon and technical terms so as to make sure all parties understood what was being said and
+                      done at all times.</p>
+
+                    <p class="card-text">“It was a customer solutions opportunity,” Said Pritchett. “That’s
+                      basically the role (liaison officers) play, and I do think we were integral in the
+                      operation's success. I had to communicate the urgency between the two parties.”</p>
+
+                    <p class="card-text">He added that, traditionally, normal acquisitions require a six to eight
+                      month iteration cycle for a new update to software.</p>
+
+                    <p class="card-text">“At Kessel Run, we can make updates or create changes at will,” said
+                      Pritchett. “As long as we understand the need, we can deliver on a solution that hits the
+                      mark for users. The difference is that a lot of traditional acquisitions is that a lot of
+                      the requirements were generated from outside of the (Air Operations Command) or user base.
+                      With C2IMERA and Slapshot, we’re sitting down with real people using the software to perform
+                      an operational need. We were able to deliver a series of solutions that created a near-term
+                      and lasting impact within a very short timeframe.”</p>
+
+                    <p class="card-text">Pritchett said that LNOs add an empathetic, hands-on approach to fixing
+                      solutions for the end users. Within hours, he and his contacts ended up fielding a fixing
+                      solution that they were able to implement the very next day.</p>
+
+                    <address>
+                      <span style="color: #2DC6E0;">Air Force Life Cycle Management Center</span><br>
+                      Detachment 12, Kessel Run<br>
+                      Media and Communications Engagement<br>
+                      Email:
+                      <code><a href="mailto:media@kr.af.mil" style="color: #2DC6E0;">media@kr.af.mil</a></code><br>
+                    </address>
+
+                  </div>
+
+                </div>
+
+                <br>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="new-footer">
+
+        <div class="row">
+          <div class="col-md-3 footer-hide-on-mobile">
+            <ul>
+              <!-- <li> <a href="/site-map/" title="Kessel Run Site Map">Site Map</a> </li> -->
+              <li> <a href="/contact-us/" title="Reach out to Kessel Run">Questions</a> </li>
+              <li> <a href="http://www.af.mil/AF-Sites/" title="Official Air Force Websites">AF Sites</a> </li>
+              <li> <a href="http://www.af.mil/RSS/" title="Official Air Force RSS feed">RSS</a> </li>
+              <li> <a href="http://www.af.mil/Inspector-General-Complaints/" title="Inspector General">IG</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="http://www.foia.af.mil/" title="Freedom of Information Act">FOIA</a> </li>
+              <li> <a href="http://www.af.mil/SAPR.aspx" title="Sexual Assault Prevention and Response">SAPR</a> </li>
+              <li> <a href="https://www.usa.gov/" title="US Government official website">USA.gov</a> </li>
+              <li> <a href="http://prhome.defense.gov/NoFear/" title="DoD Official No FEAR Act Page">No FEAR Act</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="http://www.af.mil/Portals/1/documents/AF_Executive_Fleet.pdf"
+                  title="Official Air Force Executive Fleet">AF Executive Fleet</a> </li>
+              <li> <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
+                  title="Accesibility Information">Accessibility</a> </li>
+              <li> <a href="http://www.af.mil/Equal-Opportunity/" title="Equal Employment Opportunity">EEO</a> </li>
+              <li> <a href="http://www.af.mil/Disclaimer.aspx" title="Official Air Force Link Disclaimer">Link
+                  Disclaimer</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="https://www.archives.gov/about/plans-reports/performance-accountability"
+                  title="Annual Performance Plan and Report">Strategic APR</a> </li>
+              <li> <a href="http://www.airforcemedicine.af.mil/SuicidePrevention/" title="AF Suicide Prevention">Suicide
+                  Prevention</a> </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9369464.js"></script>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Right navbar function -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "300px";
+      document.getElementById("main").style.opacity = "0.4";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+      document.getElementById("main").style.opacity = "1";
+    }
+  </script>
+
+</body>
+
+</html>

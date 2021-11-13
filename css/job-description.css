@@ -1,0 +1,211 @@
+.navbar-mobile {
+  display: none;
+}
+
+.career {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.application-form {
+  border: 0;
+  width: 100%;
+  padding-top: 100px;
+  margin-top: 38px;
+}
+
+/*Bamboo embedded form style overrides*/
+
+.BambooHR-ATS-board h2 {
+  font-size: 38px !important;
+  color: #CDD4DE !important;
+  /*padding-top: 30px;*/
+  /*padding-left: 1vw !important;*/
+  font-family: 'Stratum No1 black', 'Roboto', sans-serif !important;
+  text-transform: uppercase;
+}
+
+.BambooHR-ATS-board ul ul {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.BambooHR-ATS-board li {
+  color: #3fcaff;
+  font-size: 14px;
+}
+
+.BambooHR-ATS-Jobs-List {
+  border: 0;
+}
+
+.BambooHR-ATS-Jobs-Item a {
+  /*margin-left: 80px;*/
+  font-size: 1.5em !important;
+}
+
+.BambooHR-ATS-Location {
+  margin-right: 80px;
+}
+
+.apply-top .apply-now {
+  display: none;
+}
+
+.job-description {
+  margin-top: 64px;
+  max-width: 45%;
+}
+
+.job-description > h1 {
+  padding-bottom: 32px;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Stratum No1 black", sans-serif;
+  color: #2dc6e0;
+}
+
+.description-contents {
+  font-size: 22px;
+  font-family: "Segoe UI", serif light;
+  padding-bottom: 24px;
+}
+
+.description-contents > h2 {
+  font-size: 56px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.description-contents > ul {
+  list-style-type: outside;
+}
+
+.apply .apply-now {
+  margin-top: 320px;
+  margin-left: 4vh;
+  font-size: 24px;
+  padding: 4px 0px 4px 0px;
+  width: 300px;
+  border-radius: 200px;
+  font-family: "Stratum No1 light", sans-serif;
+}
+
+@media screen and (max-width: 699px) {
+
+  .career {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body {
+    overflow: scroll;
+  }
+
+  .job-description {
+    margin-top: 64px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    max-width: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .job-description > h1 {
+    padding-bottom: 2vh;
+    font-size: 8vh;
+    text-transform: uppercase;
+    font-family: "Stratum No1 black", sans-serif;
+    color: #2dc6e0;
+  }
+
+  .description-contents {
+    font-size: 2vh;
+    font-family: "Segoe UI", serif light;
+    padding-bottom: 4vh;
+  }
+
+  .description-contents > h2 {
+    font-size: 4vh;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .apply .apply-now,
+  .apply-top .apply-now {
+    margin: 0 0 2vh 0;
+    font-size: 4vh;
+    padding: 1vh 0px 1vh 0px;
+    width: 90vw;
+    border-radius: 200px;
+    font-family: "Stratum No1", sans-serif;
+  }
+
+  .apply-top .apply-now {
+    display: inherit;
+    text-align: center;
+  }
+
+  a,
+  a:hover,
+  a:active {
+    color: #CDD4DE;
+    text-decoration: none;
+  }
+
+  .navbar-mobile .nav-link {
+    font-family: "Stratum No1", sans-serif;
+    font-size: 2.5vh;
+    text-transform: uppercase;
+    border: 2px solid #CDD4DE;;
+    padding: 1vh 8vw;
+    border-radius: 200px;
+  }
+
+  .nav-link:focus {
+    background-color: #CDD4DE;
+    color: #2D4562;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile {
+    background: #2D4562;
+    box-shadow: 0px 1px 10px #000;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -o-transition: top 0.3s;
+    -ms-transition: top 0.3s;
+    transition: top 0.3s;
+  }
+
+  .navbar-right {
+    flex: 0 0 auto;
+    margin-right: 4vw;
+  }
+
+  .navbar-left {
+    flex: 0 0 auto;
+    margin-left: 4vw;
+  }
+
+  .application-form > iframe {
+    height: 100%;
+  }
+
+  .BambooHR-ATS-Location {
+    display: none;
+  }
+}

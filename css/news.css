@@ -1,0 +1,245 @@
+/* New CSS */
+.news-head-image {
+  width: 100%;
+  padding-top: 56px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.news-section-break {
+  margin-bottom: 40px;
+}
+
+.news-h4 {
+  color: #2DC6E0;
+}
+
+.news-page-image {
+  float: left;
+  width: 300px;
+  margin-right: 28px;
+}
+
+.news-readmore {
+  color: #2DC6E0;
+  font-style: italic;
+}
+
+.news-date-by {
+  list-style: none;
+  color: #2DC6E0;
+}
+
+.scroll-news {
+  max-height: 1670px;
+  overflow-y: scroll;
+  margin-bottom: 28px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.breadcrumb {
+  background-color: #06263B;
+}
+
+.news-head {
+  width: 100%;
+  padding-top: 90px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Old news CSS */
+
+.new-list {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 104px;
+}
+
+.new-list > h1 {
+    font-size: 4vw;
+}
+
+.list > ul {
+    margin-top: 1em;
+}
+
+.list > ul > li > a {
+    font-size: 1.75vw;
+}
+
+.list > ul > ul > li > a {
+  font-size: 1.75vw;
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .news-columns {
+    margin-top: 75px;
+  }
+
+  .news-columns > h1 {
+    font-size: 8vw;
+  }
+
+  .list > ul > li {
+    padding-bottom: 1em;
+  }
+
+  .list > ul > li > a {
+    font-size: 3.75vw;
+  }
+}
+
+/* Start Card News
+============================================================================================ */
+.news {
+    /*margin-top: 20px;*/
+    margin-bottom: 30px;
+}
+
+.news h1 {
+    text-align: center;
+}
+
+.fullnews {
+    text-align: right;
+    /*font-size: 20px;"*/
+}
+
+.card {
+    background: #06263b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2dc6e0, #06263b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2dc6e0, #06263b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: solid 1px #2dc6e0;
+    /*margin-top: 20px;*/
+}
+
+.card-title {
+    font-family: "SegoeUI";
+    text-transform: uppercase;
+}
+
+.engage-link {
+  color: #2DC6E0;
+  font-weight: bold;
+}
+
+.badge {
+    background-color: #2DC6E0;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.card-title a:hover {
+    text-decoration: none;
+    font-weight:bold;
+    color: #fff;
+}
+
+.card-footer {
+    background: #06263b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #06263b, #2dc6e0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #06263b, #2dc6e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background: #06263B;*/
+    color: #cdd4de;
+}
+
+hr.newsline1 {
+    /*height: 17px;*/
+    border-style: solid;
+    border-color: #2dc6e0;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.newsline2 {
+  /*height: 17px;*/
+  border-style: dashed;
+  border-color: #8593A6;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.carousel-indicators {
+    /*bottom:-50px;*/
+    position: relative;
+    top: 0px;
+    /*padding: 10px;*/
+}
+
+.carousel-indicators li {
+    /*margin-top: -22px;*/
+    border-color:#000;
+    background-color: #8593A6;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #2DC6E0;
+}
+
+.carousel-indicators2 {
+    /*bottom:-50px;*/
+    position: relative;
+    top: 0px;
+    /*padding: 10px;*/
+}
+
+.carousel-indicators2 li {
+    /*margin-top: -22px;*/
+    border-color:#000;
+    background-color: #06263B;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .carousel-control-prev-icon {
+    background-image: url(/resources/images/news/prev.png);
+    width: 32px;
+}
+
+.carousel-indicators .carousel-control-next-icon {
+    background-image: url(/resources/images/news/next.png);
+    width: 32px;
+}
+
+.news-article-image {
+  margin: 0 20px 10px 0;
+  border: solid 1px #fff;
+}
+
+.news-qa-color {
+  color: #2DC6E0;
+  font-weight: 900;
+}
+
+@media (max-width: 991px) {
+    .card {
+        padding-bottom: 80px;
+    }
+}
+
+/* End Card News
+============================================================================================ */
+

@@ -1,0 +1,21 @@
+.contactus-main {
+  height: calc(100vh - 240px);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  background-color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    padding: 1em;
+}
+
+.disclaimer {
+  color: #ffffff;
+}

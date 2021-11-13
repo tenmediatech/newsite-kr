@@ -1,0 +1,77 @@
+.ribbon {
+    background-color: hsl(189, 74%, 53%);
+    background-image: url('../resources/images/partnership/EnablementBG.jpg');
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.5);
+    text-align: center;
+    margin: auto -23px auto;
+    padding: 0.25em 18px;
+    position: relative;
+    color: #06263B;
+
+    font-family: "Stratum No1", serif;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    font-size: 26px;
+}
+.ribbon-content {
+    display: block;
+    padding: 2px;
+    color: #06263B;
+}
+
+.ribbon-content :hover{
+  color: #06263B;
+  text-decoration: none;
+}
+
+/*effect-underline*/
+
+.effect-underline {
+  color: #06263B;
+}
+
+a.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 8px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.ribbon-content:before,
+.ribbon-content:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-color: hsl(189, 73%, 25%) transparent transparent transparent;
+    bottom: -1em;
+}
+.ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+.ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ribbon {
+        font-size: 18px;
+    }
+}

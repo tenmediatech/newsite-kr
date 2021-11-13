@@ -1,0 +1,406 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130875598-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130875598-1');
+  </script>
+
+  <!-- bootstrap 5.1 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- roboto.ttf -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- din 2014. also linked in css -->
+
+  <link rel="stylesheet" href="/css/contactus.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/careers.css">
+  <link rel="stylesheet" href="/css/product-page-layout.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+  <link rel="manifest" href="/resources/icons/site.webmanifest">
+  <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#06263b">
+  <meta name="apple-mobile-web-app-title" content="Kessel Run">
+  <meta name="application-name" content="Kessel Run">
+  <meta name="msapplication-TileColor" content="#cdd4de">
+  <meta name="theme-color" content="#06263b">
+
+  <title>Kessel Run | Code. Deploy. Win.</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Top Nav bar -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark main-kr-nev">
+        <a href="/index.html"><img src="/resources/2C-HorizontalComboLogo-Light-Updated.svg" alt="Kessel Run Logo"
+            width="64%"></a>
+        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="/index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about/about-us.html">ABOUT US</a></li>
+
+            <!-- PRODUCT LINES dropdown menu -->
+            <div class="dropdown">
+              <li class="nav-item">
+                <a class="nav-link page-active" href="/product-lines/OpsC2.html">PRODUCT LINES</a>
+              </li>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/product-lines/OpsC2.html">OPERATIONAL C2</a>
+                <a class="dropdown-item page-active" href="/product-lines/WingC2.html">WING C2</a>
+                <a class="dropdown-item" href="/product-lines/ADCP.html">ALL-DOMAIN COMMON PLATFORM</a>
+              </ul>
+            </div>
+
+            <!-- PARTNERSHIPS dropdown menu -->
+            <div class="dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="/partners/partnerships.html">PARTNERSHIPS</a>
+              </li>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="/partners/government-engagement/new-gov.html">GOVERNMENT</a></li>
+                <li><a class="dropdown-item" href="/partners/industry-outreach/new-ind.html">INDUSTRY</a></li>
+                <li><a class="dropdown-item" href="/partners/community-engagement/new-comm.html">COMMUNITY</a></li>
+              </ul>
+            </div>
+
+            <li class="nav-item"><a class="nav-link" href="/careers/new-careers.html">CAREERS</a></li>
+
+          </ul>
+        </div>
+
+        <!-- Sidebar menu -->
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <img src="/resources/right-menu-icon.svg" alt="right-menu-icon" width="50px" alt="right-menu-icon"
+              style="margin-top: 20px;">
+          </a>
+
+          <div class="hide-on-large-screen">
+            <a href="/index.html">HOME</a>
+            <a href="/about/about-us.html">ABOUT US</a>
+
+            <div class="dropdown">
+              <a class="page-active" href="/product-lines/OpsC2.html">PRODUCT LINES
+                <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/product-lines/OpsC2.html">OPERATIONAL C2</a>
+                <a class="dropdown-item page-active" href="/product-lines/WingC2.html">WING C2</a>
+                <a class="dropdown-item" href="/product-lines/ADCP.html">ALL-DOMAIN COMMON PLATFORM</a>
+              </ul>
+            </div>
+            <br>
+            <div class="dropdown">
+              <a href="/partners/partnerships.html">
+                PARTNERSHIPS
+                <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/partners/government-engagement/new-gov.html">GOVERNMENT</a>
+                <a class="dropdown-item" href="/partners/industry-outreach/new-ind.html">INDUSTRY</a>
+                <a class="dropdown-item" href="/partners/community-engagement/new-comm.html">COMMUNITY</a>
+              </ul>
+            </div>
+
+            <a href="/careers/new-careers.html">CAREERS</a>
+          </div>
+          <a href="/news/new-news.html">NEWS ARCHIVE</a>
+          <a href="/careers/new-faq.html">FAQ</a>
+          <a href="/contact-us/new-contact.html">CONTACTS</a>
+
+          <!-- Social Icons from Bootstrap icons -->
+          <div class="sidepanel-social-icons">
+            <a class="d-inline" href="https://www.airforce.com/" target="_blank"><img
+                src="/resources/images/US_Air_Force_Logo.svg" width="20%" alt="US Air Force Logo"></a>
+
+            <a class="d-inline" href="https://www.youtube.com/channel/UCqrPQYmIxbk3Wo_w594pEEA" target="_blank">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a class="d-inline" href="https://www.linkedin.com/company/kesselrun/" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
+            <a class="d-inline" href="https://www.instagram.com/kesselrunaf/" target="_blank"><i
+                class="bi bi-instagram"></i></a>
+            <a class="d-inline" href="https://www.facebook.com/kesselrunUSAF" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+            <a class="d-inline" href="https://twitter.com/kesselrunAF" target="_blank">
+              <i class="bi bi-twitter"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <a class="openbtn" onclick="openNav()">
+          <img src="/resources/right-menu-icon.svg" alt="right-menu-icon" width="50px" alt="right-menu-icon">
+        </a>
+
+      </nav>
+
+    </header>
+
+    <!-- Main page -->
+    <main id="main" onclick="closeNav()">
+
+      <!-- Image with text on top -->
+
+      <div class=" imagebg">
+
+        <div class="image-back1">
+          <img src="/resources/images/WingC2/WingC2-main-image1.jpg" alt="KR WingC2">
+        </div>
+
+        <div class="wingC2-image-section1">
+          <h1 class="display-1 video-heading">WING<span style="color: #ffffff;">C2</span></h1>
+          <p>INFORM & EXECUTE THE FUTURE AIR TASKING ORDER DURING AGILE COMBAT EMPLOYMENT</p>
+          <a href="#command"><button class="image-section-button">EXPLORE WINGC2</button></a>
+        </div>
+      </div>
+
+      <!-- 1st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back1">
+          <img src="/resources/images/WingC2/WingC2-main-image2.jpg" alt="KR WingC2">
+        </div>
+
+        <div class="row" id="command">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section3">
+            <h1 class="display-4 text-heading">COMMAND & MISSION GROUP</h1>
+            <p>WingC2’s Command and Mission Group connects people, automating daily operations, and integrating myriad
+              systems’ data to improve installation Command and Control (C2) decision speed, quality, and lethality. It
+              focuses on the “Lifecycle of a mission” as a thread to bind together scheduling, flight operations
+              scheduling, resourcing, and installation (C2).</p>
+
+            <!-- Button trigger modal -->
+            <a href="#command" href="#">
+              <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                LEARN MORE
+              </button>
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body row">
+                <div class="col-md-6">
+                  <img src="/resources/images/WingC2/C2IMERA-Map.jpg" class="img-fluid" alt="KR C2IMERA">
+                  <br><br>
+                  <h5 class="modal-title">C2IMERA</h5>
+                  <p class="modal-para">The Command and Control Incident Management Emergency Response Application
+                    (C2IMERA) provides an integrated composite picture of installation resources through: reporting,
+                    planning, force generation, emergency management, and (C2) monitoring and execution. C2IMERA is used
+                    in more than 40 Air Force installations, with another twenty installations scheduled to onboard the
+                    capability.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/resources/images/WingC2/Patriot-Excalibur.jpg" class="img-fluid" alt="Patriot Excalibur">
+                  <br><br>
+                  <h5 class="modal-title">PATRIOT EXCALIBUR</h5>
+                  <p class="modal-para">PEX - Patriot Excalibur (PEX) is the maintenance and scheduling tool set. It
+                    provides Wide Spectrum, Multi-domain, Operational Scheduling, Training, and Maintenance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 2st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back2">
+          <img src="/resources/images/WingC2/WingC2-main-image3.jpg" alt="WingC2's Data">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section2">
+            <h1 class="display-4 text-heading">DATA</h1>
+            <p>WINGC2’s Data Portfolio enables its teams to be data-driven. It creates and maintains a healthy data
+              ecosystem by enabling apps to efficiently derive value for data assets - Optimization, Artificial
+              Intelligence, and Machine Learning Initiative. It supports data production-to-analysis lifecycle for Data
+              Generation, Analysis, Storage, and Transport.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 3st Video with text on top -->
+
+      <div class="imagebg">
+
+        <div class="imagebg">
+          <div class="image-back1">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+              <source src="/resources/videos/T&G.mov" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+
+            </div>
+
+            <div class="col-md-6 col-sm-12 image-section3">
+              <h1 class="display-4 text-heading">TARGETING & GEOINTELLIGENCE</h1>
+              <p>Our Targeting and Geointelligence Portfolio enables teams to apply intelligence to planning and
+                operations at the operational and tactical level. Our (T&G) applications prepare our Airmen to visualize
+                and prioritize targets, and intelligence on the battlefield. It combines interactive map visuals, target
+                list management, mission reporting, and visual assessments of threats.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- 4st Image with text on top -->
+
+        <div class="imagebg">
+          <div class="image-back1">
+            <img src="/resources/images/WingC2/WingC2-partner-main-image4.jpg" alt="Partner with KR">
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+
+            </div>
+
+            <div class="col-md-6 col-sm-12 image-section2">
+              <h1 class="display-4 text-heading">PARTNER WITH US</h1>
+              <p>We set goals. And we deliver. At Kessel Run, we are revolutionizing the way the Air Force builds and
+                delivers software capabilities, by taking industry-proven software development practices and pairing
+                them with talented Airmen. With our innovative and agile techniques, we are able to sense and respond to
+                conflict in any domain, anytime, anywhere.</p>
+              <a href="/partners/partnerships.html"><button class="image-section-button">VIEW PARTNERSHIPS</button></a>
+
+            </div>
+          </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="new-footer">
+
+        <div class="row">
+          <div class="col-md-3 footer-hide-on-mobile">
+            <ul>
+              <!-- <li> <a href="/site-map/" title="Kessel Run Site Map">Site Map</a> </li> -->
+              <li> <a href="/contact-us/" title="Reach out to Kessel Run">Questions</a> </li>
+              <li> <a href="http://www.af.mil/AF-Sites/" title="Official Air Force Websites">AF Sites</a> </li>
+              <li> <a href="http://www.af.mil/RSS/" title="Official Air Force RSS feed">RSS</a> </li>
+              <li> <a href="http://www.af.mil/Inspector-General-Complaints/" title="Inspector General">IG</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="http://www.foia.af.mil/" title="Freedom of Information Act">FOIA</a> </li>
+              <li> <a href="http://www.af.mil/SAPR.aspx" title="Sexual Assault Prevention and Response">SAPR</a> </li>
+              <li> <a href="https://www.usa.gov/" title="US Government official website">USA.gov</a> </li>
+              <li> <a href="http://prhome.defense.gov/NoFear/" title="DoD Official No FEAR Act Page">No FEAR Act</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="http://www.af.mil/Portals/1/documents/AF_Executive_Fleet.pdf"
+                  title="Official Air Force Executive Fleet">AF Executive Fleet</a> </li>
+              <li> <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
+                  title="Accesibility Information">Accessibility</a> </li>
+              <li> <a href="http://www.af.mil/Equal-Opportunity/" title="Equal Employment Opportunity">EEO</a> </li>
+              <li> <a href="http://www.af.mil/Disclaimer.aspx" title="Official Air Force Link Disclaimer">Link
+                  Disclaimer</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="https://www.archives.gov/about/plans-reports/performance-accountability"
+                  title="Annual Performance Plan and Report">Strategic APR</a> </li>
+              <li> <a href="http://www.airforcemedicine.af.mil/SuicidePrevention/" title="AF Suicide Prevention">Suicide
+                  Prevention</a> </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9369464.js"></script>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Right navbar function -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "300px";
+      document.getElementById("main").style.opacity = "0.4";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+      document.getElementById("main").style.opacity = "1";
+    }
+  </script>
+
+</body>
+
+</html>

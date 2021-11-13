@@ -1,0 +1,623 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130875598-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130875598-1');
+  </script>
+
+  <!-- bootstrap 5.1 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- roboto.ttf -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- din 2014. also linked in css -->
+
+  <link rel="stylesheet" href="/css/contactus.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/careers.css">
+  <link rel="stylesheet" href="/css/product-page-layout.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+  <link rel="manifest" href="/resources/icons/site.webmanifest">
+  <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#06263b">
+  <meta name="apple-mobile-web-app-title" content="Kessel Run">
+  <meta name="application-name" content="Kessel Run">
+  <meta name="msapplication-TileColor" content="#cdd4de">
+  <meta name="theme-color" content="#06263b">
+
+  <title>Kessel Run | Code. Deploy. Win.</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Top Nav bar -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark main-kr-nev">
+        <a href="/index.html"><img src="/resources/2C-HorizontalComboLogo-Light-Updated.svg" alt="Kessel Run Logo"
+            width="64%"></a>
+        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="/index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about/about-us.html">ABOUT US</a></li>
+
+            <!-- PRODUCT LINES dropdown menu -->
+            <div class="dropdown">
+              <li class="nav-item">
+                <a class="nav-link page-active" href="/product-lines/OpsC2.html">PRODUCT LINES</a>
+              </li>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item page-active" href="/product-lines/OpsC2.html">OPERATIONAL C2</a>
+                <a class="dropdown-item" href="/product-lines/WingC2.html">WING C2</a>
+                <a class="dropdown-item" href="/product-lines/ADCP.html">ALL-DOMAIN COMMON PLATFORM</a>
+              </ul>
+            </div>
+
+            <!-- PARTNERSHIPS dropdown menu -->
+            <div class="dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="/partners/partnerships.html">PARTNERSHIPS</a>
+              </li>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="/partners/government-engagement/new-gov.html">GOVERNMENT</a></li>
+                <li><a class="dropdown-item" href="/partners/industry-outreach/new-ind.html">INDUSTRY</a></li>
+                <li><a class="dropdown-item" href="/partners/community-engagement/new-comm.html">COMMUNITY</a></li>
+              </ul>
+            </div>
+
+            <li class="nav-item"><a class="nav-link" href="/careers/new-careers.html">CAREERS</a></li>
+
+          </ul>
+        </div>
+
+        <!-- Sidebar menu -->
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <img src="/resources/right-menu-icon.svg" alt="right-menu-icon" width="50px" alt="right-menu-icon"
+              style="margin-top: 20px;">
+          </a>
+
+          <div class="hide-on-large-screen">
+            <a href="/index.html">HOME</a>
+            <a href="/about/about-us.html">ABOUT US</a>
+
+            <div class="dropdown">
+              <a class="page-active" href="/product-lines/OpsC2.html">PRODUCT LINES
+                <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item page-active" href="/product-lines/OpsC2.html">OPERATIONAL C2</a>
+                <a class="dropdown-item" href="/product-lines/WingC2.html">WING C2</a>
+                <a class="dropdown-item" href="/product-lines/ADCP.html">ALL-DOMAIN COMMON PLATFORM</a>
+              </ul>
+            </div>
+            <br>
+            <div class="dropdown">
+              <a href="/partners/partnerships.html">
+                PARTNERSHIPS
+                <i class="bi bi-plus" style="margin-left: 4px; font-size: 18px;"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <a class="dropdown-item" href="/partners/government-engagement/new-gov.html">GOVERNMENT</a>
+                <a class="dropdown-item" href="/partners/industry-outreach/new-ind.html">INDUSTRY</a>
+                <a class="dropdown-item" href="/partners/community-engagement/new-comm.html">COMMUNITY</a>
+              </ul>
+            </div>
+
+            <a href="/careers/new-careers.html">CAREERS</a>
+          </div>
+          <a href="/news/new-news.html">NEWS ARCHIVE</a>
+          <a href="/careers/new-faq.html">FAQ</a>
+          <a href="/contact-us/new-contact.html">CONTACTS</a>
+
+          <!-- Social Icons from Bootstrap icons -->
+          <div class="sidepanel-social-icons">
+            <a class="d-inline" href="https://www.airforce.com/" target="_blank"><img
+                src="/resources/images/US_Air_Force_Logo.svg" width="20%" alt="US Air Force Logo"></a>
+
+            <a class="d-inline" href="https://www.youtube.com/channel/UCqrPQYmIxbk3Wo_w594pEEA" target="_blank">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a class="d-inline" href="https://www.linkedin.com/company/kesselrun/" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
+            <a class="d-inline" href="https://www.instagram.com/kesselrunaf/" target="_blank"><i
+                class="bi bi-instagram"></i></a>
+            <a class="d-inline" href="https://www.facebook.com/kesselrunUSAF" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+            <a class="d-inline" href="https://twitter.com/kesselrunAF" target="_blank">
+              <i class="bi bi-twitter"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <a class="openbtn" onclick="openNav()">
+          <img src="/resources/right-menu-icon.svg" alt="right-menu-icon" width="50px" alt="right-menu-icon">
+        </a>
+
+      </nav>
+
+    </header>
+
+    <!-- Main page -->
+    <main id="main" onclick="closeNav()">
+
+      <!-- Video with text on top -->
+
+      <div class=" videobg">
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="/resources/videos/Refueling_F35.mov" type="video/mp4">
+        </video>
+
+        <div class="video-section">
+          <h1 class="display-1 video-heading">OPERATIONAL<span style="color: #ffffff;">C2</span></h1>
+          <p>PLAN & EXECUTE THE FUTURE AIR TASKING ORDER DURING AGILE COMBAT EMPLOYMENT</p>
+          <a href="#weapon-system"><button class="image-section-button">EXPLORE OPSC2</button></a>
+        </div>
+      </div>
+
+      <!-- 1st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back2">
+          <img src="/resources/images/OpsC2/OpsC2-main-image2.jpg" alt="KR OPERATIONALC2">
+        </div>
+
+        <div class="row" id="weapon-system">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section2">
+            <h1 class="display-4 text-heading">THE WEAPON SYSTEM</h1>
+            <p>Kessel Run’s OpsC2 product line supports the Air Operations Center (AOC) Weapon System.The AOC Weapon
+              System functions as the nerve center of the air campaign. It plans, monitors and directs sortie execution,
+              close air support and precision air strike; intelligence, surveillance and reconnaissance; airlift; air
+              refueling; aeromedical evacuation; airdrop, and countless other mission-critical operations.</p>
+
+            <!-- Button trigger modal -->
+            <a href="#weapon-system" href="#">
+              <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                EXPLORE OPSC2
+              </button>
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body row">
+                <div class="col-md-6">
+                  <img src="/resources/images/OpsC2/AOC-Block10.1.jpg" class="img-fluid" alt="AOC Block10.1">
+                  <br><br>
+                  <h5 class="modal-title">AOC BLOCK 10.1</h5>
+                  <p class="modal-para">We sustain the current 10.1 system while our Application Transition teams are
+                    taking parts of 10.1 and migrating them to the cloud environment. This will enable more flexibility
+                    in the system and build toward the future iterations of the AOC Weapons System. </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/resources/images/OpsC2/AOC-Block20.jpg" class="img-fluid" alt="AOC Block20">
+                  <br><br>
+                  <h5 class="modal-title">AOC BLOCK 20</h5>
+                  <p class="modal-para">BLOCK 20 is the future of the Air operation Center. OPSC2 is developing a
+                    suite of fully integrated applications that can sense and respond to conflict in any domain
+                    anytime, anywhere. Kessel Run has deployed several stand alone applications that are being used
+                    today in real-world Missions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 2st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back1">
+          <img src="/resources/images/OpsC2/OpsC2-main-image3.jpg" alt="KR OpsC2">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section3">
+            <h1 class="display-4 text-heading">KRADOS</h1>
+            <p>The Kessel Run All-Domain Operations Suite is the backbone of AOC Block 20. The applications within
+              KRADOS are connected by common data streams and supported by a hybrid cloud infrastructure. This suite
+              will enable America’s warfighters to move faster and allow commanders to be more efficient with their
+              manpower.</p>
+            <!-- <button class="image-section-button">VIEW APPLICATIONS</button> -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="image-section-button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              VIEW APPLICATIONS
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+
+                <!-- Carousel inside the model -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-4">
+
+                          <img src="/resources/images/OpsC2/Slapshot-App-logo.jpg" class="img-fluid"
+                            alt="KR App Slapshot">
+                          <br>
+                          <h5 class="modal-title">Slapshot</h5>
+                          <p class="modal-para">Slapshot builds the Master Air Attack Plan (MAAP). It supports the MAAP
+                            cell in the Combat Plans Division (CPD), and users in the Combat Operations Division (COD)
+                            around the world. The application is also used by joint coalition partners.</p>
+                        </div>
+                        <div class="col-md-4">
+
+                          <img src="/resources/images/OpsC2/Jigsaw-App-logo.jpg" class="img-fluid" alt="KR App Jigsaw">
+                          <br>
+                          <h5 class="modal-title">Jigsaw</h5>
+                          <p class="modal-para">Jigsaw provides an intuitive and reactive interface that enables tanker
+                            planners to save time, fuel and lives. The application has saved the DoD more than $500
+                            Million in fuel costs, and was also provided to our partners at NATO.</p>
+                        </div>
+                        <div class="col-md-4">
+
+                          <img src="/resources/images/OpsC2/Mai-Tai-App-logo.jpg" class="img-fluid"
+                            alt="KR App Mai Tai">
+                          <br>
+                          <h5 class="modal-title">Mai Tai</h5>
+                          <p class="modal-para">Mai Tai allows commanders to see what assets are available to them
+                            through accurate and secure communication. It standardizes data across Kessel Run
+                            applications to enable safer, continuous airpower through accurate and secure communication
+                            of asset data for mission planning and execution. It enables Kessel Run applications to plan
+                            in tandem and produce accurate Air Tasking Orders (ATOs).</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-4">
+
+                          <img src="/resources/images/OpsC2/Triton-logo.jpg" class="img-fluid" alt="KR App Triton">
+                          <br>
+                          <h5 class="modal-title">Triton</h5>
+                          <p class="modal-para">Triton consumes information from the other applications to generate the
+                            Air Tasking Order (ATO). It provides accurate and timely Air Tasking Orders (ATOs) to
+                            empower Air Operation Center (AOC) warfighters with enhanced mission awareness through a
+                            flexible workflow.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/Scout-App-logo.jpg" class="img-fluid" alt="KR App Scout">
+                          <br>
+                          <h5 class="modal-title">Scout</h5>
+                          <p class="modal-para">Scout is a map tool, which displays geographical data. It accelerates
+                            Kessel Run’s ability to deliver geospatial capabilities giving warfighters the right data
+                            and situational awareness to make decisions quickly and confidently.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/KRID-App-logo.jpg" class="img-fluid" alt="KR App KRUI">
+                          <br>
+                          <h5 class="modal-title">KRID</h5>
+                          <p class="modal-para">KRID is the authentication tool used for accessing the KRADOS Suite of
+                            applications.</p>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/Spacer-App-logo.jpg" class="img-fluid" alt="KR App Spacer">
+                          <br>
+                          <h5 class="modal-title">Spacer</h5>
+                          <p class="modal-para">Spacer is an air space management tool that coordinates and deconflicts
+                            air spaces within an area of responsibility. It allows Airspace Managers to increase
+                            operational effectiveness by providing safe, efficient, and flexible use of airspace.</p>
+                        </div>
+
+                        <div class="col-md-4">
+
+                          <img src="/resources/images/OpsC2/Rebel-Alliance-App-logo.jpg" class="img-fluid"
+                            alt="KR App Rebel Alliance">
+                          <br>
+                          <h5 class="modal-title">Rebel Alliance</h5>
+                          <p class="modal-para">Rebel Alliance handles events within the KRADOS Suite, communicating
+                            data between the applications. It is the key to Kessel Run integrations, and supports all of
+                            our product teams’ efforts to share data. It pairs with teams to help improve their data
+                            models, define their aggregates, and integrate across Kessel Run.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/Holonet-App-logo.jpg" class="img-fluid"
+                            alt="KR App Holonet">
+                          <br>
+                          <h5 class="modal-title">Holonet</h5>
+                          <p class="modal-para">Holonet consumes live data from aircraft and makes it available to the
+                            KRADOS Suite of applications. It supports all Kessel Run applications integrated with Rebel
+                            Alliance or Rogue One. HoloNet will enable these applications to subscribe to the
+                            information sources they need so they can keep their users up to date with near real-time
+                            information.</p>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/Direct-App-logo.jpg" class="img-fluid" alt="KR App Direct">
+                          <br>
+                          <h5 class="modal-title">Direct</h5>
+                          <p class="modal-para">Direct shows what the aircraft plan is, and keeps operators uptodate
+                            with any changes. It supports the Combat Operations Division, personnel conducting
+                            shift-change and other debriefs and any operator interested in mission situational
+                            awareness. Equips the warfighter with flexible mission monitoring and status tracking
+                            capability.</p>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <!-- <div class="carousel-item">
+                      <div class="row">
+
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/TBMCS-App-logo.jpg" class="img-fluid" alt="KR App TBMCS">
+                          <br>
+                          <h5 class="modal-title">TBMCS</h5>
+                          <p class="modal-para">TBMCS is the system of record for force level theater battle management
+                            capability and the generation, dissemination, and execution of the Air Tasking Order (ATO)
+                            and Air Control Order (ACO). It automates the processes associated with the Combined Air and
+                            Space Operations Center (CAOC) portion of the Theater Air Control System (TACS) and
+                            supported sites.</p>
+                        </div>
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/APTX-App-logo.jpg" class="img-fluid" alt="KR App APTX">
+                          <br>
+                          <h5 class="modal-title">APTX</h5>
+                          <p class="modal-para"><b>STRATEGY</b> Leveraging and modernizing 2nd and 3rd party app
+                            deployment for use alongside cloud-native
+                            applications to deliver faster, more secure, and new experiences to our warfighters.
+                          </p>
+                        </div>
+                      </div>
+                    </div> -->
+
+                    <!-- <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/Problem-Space-App-logo.jpg" class="img-fluid"
+                            alt="KR App PROBLEM SPACE">
+                          <br>
+                          <h5 class="modal-title">PROBLEM SPACE</h5>
+                          <p class="modal-para">With KRADOS focusing on developing apps for a specific solution space,
+                            AppTX's goal is to migrate essential legacy and non-KR apps to the cloud to complement what
+                            KRADOS is delivering and expedite the migration from the 10.1 baseline.</p>
+                        </div>
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/10.1-App-logo.jpg" class="img-fluid" alt="KR App 10.1">
+                          <br>
+                          <h5 class="modal-title">10.1</h5>
+                          <p class="modal-para">We sustain the current 10.1 system while our Application Transition
+                            teams are taking parts of 10.1 and migrating them to the cloud environment. This will enable
+                            more flexibility in the system and build toward the future iterations of the AOC Weapons
+                            System.</p>
+                        </div>
+                        <div class="col-md-4">
+                          <img src="/resources/images/OpsC2/Mod-Sim-App-logo.jpg" class="img-fluid"
+                            alt="KR App Modeling and Simulation">
+                          <br>
+                          <h5 class="modal-title">Modeling and Simulation</h5>
+                          <p class="modal-para">Modeling and Simulation supports combat readiness by providing the
+                            warfighter with a synthetic environment that is tailorable, scaleable, and accurate. This is
+                            pivotal for the modernization of system validation and operator training. </p>
+                        </div>
+                      </div>
+                    </div> -->
+
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back2">
+          <img src="/resources/images/OpsC2/OpsC2-main-image4.jpg" alt="KR Modeling and Simulation">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section2">
+            <h1 class="display-4 text-heading">MODELING & SIMULATION</h1>
+            <p>Modeling and Simulation supports combat readiness by providing the warfighter with a synthetic
+              environment that is tailorable, scaleable, and accurate. This is pivotal for the modernization of system
+              validation and operator training.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 4st Image with text on top -->
+
+      <div class="imagebg">
+        <div class="image-back1">
+          <img src="/resources/images/OpsC2/OpsC2-main-image5.jpg" alt="PARTNER WITH KR">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 image-section3">
+            <h1 class="display-4 text-heading">PARTNER WITH US</h1>
+            <p>We set goals. And we deliver. At Kessel Run, we are revolutionizing the way the Air Force builds and
+              delivers software capabilities, by taking industry-proven software development practices and pairing them
+              with talented Airmen. With our innovative and agile techniques, we are able to sense and respond to
+              conflict in any domain, anytime, anywhere.</p>
+            <a href="/partners/partnerships.html"><button class="image-section-button">VIEW PARTNERSHIPS</button></a>
+
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="new-footer">
+
+        <div class="row">
+          <div class="col-md-3 footer-hide-on-mobile">
+            <ul>
+              <!-- <li> <a href="/site-map/" title="Kessel Run Site Map">Site Map</a> </li> -->
+              <li> <a href="/contact-us/" title="Reach out to Kessel Run">Questions</a> </li>
+              <li> <a href="http://www.af.mil/AF-Sites/" title="Official Air Force Websites">AF Sites</a> </li>
+              <li> <a href="http://www.af.mil/RSS/" title="Official Air Force RSS feed">RSS</a> </li>
+              <li> <a href="http://www.af.mil/Inspector-General-Complaints/" title="Inspector General">IG</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="http://www.foia.af.mil/" title="Freedom of Information Act">FOIA</a> </li>
+              <li> <a href="http://www.af.mil/SAPR.aspx" title="Sexual Assault Prevention and Response">SAPR</a> </li>
+              <li> <a href="https://www.usa.gov/" title="US Government official website">USA.gov</a> </li>
+              <li> <a href="http://prhome.defense.gov/NoFear/" title="DoD Official No FEAR Act Page">No FEAR Act</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="http://www.af.mil/Portals/1/documents/AF_Executive_Fleet.pdf"
+                  title="Official Air Force Executive Fleet">AF Executive Fleet</a> </li>
+              <li> <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
+                  title="Accesibility Information">Accessibility</a> </li>
+              <li> <a href="http://www.af.mil/Equal-Opportunity/" title="Equal Employment Opportunity">EEO</a> </li>
+              <li> <a href="http://www.af.mil/Disclaimer.aspx" title="Official Air Force Link Disclaimer">Link
+                  Disclaimer</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-links footer-hide-on-mobile">
+            <ul>
+              <li> <a href="https://www.archives.gov/about/plans-reports/performance-accountability"
+                  title="Annual Performance Plan and Report">Strategic APR</a> </li>
+              <li> <a href="http://www.airforcemedicine.af.mil/SuicidePrevention/" title="AF Suicide Prevention">Suicide
+                  Prevention</a> </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9369464.js"></script>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Right navbar function -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "300px";
+      document.getElementById("main").style.opacity = "0.4";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+      document.getElementById("main").style.opacity = "1";
+    }
+  </script>
+
+</body>
+
+</html>

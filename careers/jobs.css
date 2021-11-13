@@ -1,0 +1,24 @@
+#wrapper {
+  color: #2DC6E0;
+}
+
+.opening a {
+  color: #2DC6E0;
+}
+
+.location {
+  color: #CDD4DE;
+}
+
+.filter-label {
+  color: #CDD4DE;
+}
+
+#main section h3 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.accessible #content {
+  color: #ffffff;
+}

@@ -1,0 +1,528 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  background-image: none;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+p {
+  font-family: 'Roboto', Segoe UI, sans-serif;
+}
+
+/* Colors */
+
+.kr-light-blue-color {
+  color: #2DC6E0;
+}
+
+.kr-dark-blue-color {
+  color: #06263B;
+}
+
+/* Navbar Main Product page */
+
+.main-kr-nev {
+  font-family: "Stratum No1", sans-serif;
+  font-weight: bold;
+  background-color:rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  padding: 10px 8px 10px 12px;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  padding-left: 18%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  margin: 0;
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #2DC6E0;
+}
+
+.navbar-dark .navbar-nav .page-active {
+  color: #2DC6E0;
+}
+
+.dropdown:hover .dropdown-menu-dark {
+  display: block;
+}
+
+.dropdown .dropdown-menu-dark a:hover {
+  color: #2DC6E0;
+  background: none;
+}
+
+.dropdown-toggle::after {
+  margin-left: 10px;
+}
+
+/* Right Collapse Sidepanel menu */
+
+.right-nev a {
+  font-size: 14px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.dropdown-menu {
+  position: relative;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel-social-icons {
+  margin-top: 120px;
+  margin-left: 18px;
+}
+
+.sidepanel-social-icons a {
+  padding: 0px;
+  margin-right: 12px;
+  font-size: 22px;
+}
+
+.sidepanel a:hover {
+  color: #2DC6E0;
+}
+
+.sidepanel .page-active {
+  color: #2DC6E0;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  font-size: 32px;
+}
+
+.openbtn:hover {
+  background-color: none;
+}
+
+.hide-on-large-screen {
+  list-style: none;
+}
+
+/* Video background with text on top */
+
+.video-heading {
+  margin-top: 140px;
+  color: #2DC6E0;
+  font-weight: 900;
+  font-family: "Stratum No1 black", sans-serif;
+}
+
+.videobg {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  position: relative; /* requires for to position video properly */
+}
+
+video {
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
+}
+
+.video-section {
+  text-align: center;
+  border-radius: 30px;
+  padding: 30px 14px;
+  margin: 5%;
+}
+
+.video-section-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  border: 1px solid #2DC6E0;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 8px 16px;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Image background with text on top */
+
+.imagebg {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative; /* requires for to position video properly */
+}
+
+/* For News Left aligned section */
+.image-back1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
+}
+
+/* For News Right aligned section */
+.image-back2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
+}
+
+.text-heading {
+  font-family: "Stratum No1 black", sans-serif;
+  font-weight: 900;
+  color: #2DC6E0;
+}
+
+.wingC2-image-section1 {
+  text-align: center;
+  max-width: 90%;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 5%;
+  margin-right: 3%;
+  margin-left: auto;
+  margin-bottom: 17%;
+}
+
+.image-section1 {
+  text-align: left;
+  max-width: 90%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 14%;
+  margin-right: 16%;
+  margin-left: 3%;
+  margin-bottom: 16%;
+  transform: scale(106%); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.image-section2 {
+  text-align: left;
+  max-width: 90%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 10%;
+  margin-right: 3%;
+  margin-left: auto;
+  margin-bottom: 14%;
+}
+
+.image-section3 {
+  text-align: left;
+  max-width: 90%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 14%;
+  margin-right: 16%;
+  margin-left: 3%;
+  margin-bottom: 16%;
+}
+
+/* Animated Button */
+
+.image-section-button {
+	position: relative;
+  z-index: 2;
+  font-family: "Stratum No1", sans-serif;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  border: 1px solid #2DC6E0;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image-section-button:hover:before {
+	left: 0%;
+  width: 100%;
+}
+
+.image-section-button:hover {
+  color: #000000;
+}
+
+.image-section-button:before {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	background-color: #2DC6E0;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+/* Modal */
+
+/* The Modal (background) */
+
+.modal .modal-body {
+  overflow-y: auto;
+  max-height: 700px;
+}
+
+
+.modal {
+  margin-top: 5%;
+  height: auto; /* Full height */
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.modal-body {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+/* Modal Content */
+.modal-content {
+  border: #000000;
+  background-color: #000;
+  border-radius: 16px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.modal-title {
+  font-family: "Stratum No1 black", sans-serif;
+  color: #2DC6E0;
+  margin-bottom: 14px;
+}
+
+.modal-para {
+  font-family: 'Roboto', Segoe UI, sans-serif;
+}
+
+.modal-image {
+  margin: 0 20px 20px 0;
+}
+
+/* Modal close button */
+
+.modal-header {
+  border-bottom: 0 none;
+  padding: 26px 30px 10px 0;
+}
+
+.btn-close {
+  font-size: 10px;
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+.btn-close:hover {
+  opacity: 1;
+  background-color: #2DC6E0;
+}
+
+/* Scrolling leadership images */
+
+.kr-leadership > .row {
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.kr-leadership > .row > .col-md-2 {
+  display: inline-block;
+}
+
+.kr-leadership > .row > .col-md-2 figure{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Partnership */
+
+.image-zoom {
+  transition: transform .5s ease;
+}
+
+.image-zoom:hover {
+  transform: scale(106%); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.partnership-click {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* FAQ */
+
+.faq-section-col-back {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(105, 107, 107, 0.1);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+}
+
+.faq-section-col-back:hover {
+  background-color: #06263B;
+}
+
+/* Footer */
+
+.new-footer {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+	height: auto;
+	padding: 40px 30px 20px 30px;
+  width: 100%;
+  background-size: cover;
+}
+
+.new-footer li {
+  font-size: 13px;
+  list-style-type: none;
+  padding-bottom: 12px;
+}
+
+.new-footer a:hover {
+  color: #2DC6E0;
+  opacity: 1;
+}
+
+.new-footer a {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.footer-social li{
+  font-size: 24px;
+	float: left;
+	height: 36px;
+	padding: 0;
+	text-align: center;
+  width: 36px;
+}
+
+/* Responsive media query start */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .image-section1 {
+    margin: 34% 5% 10% 5%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .image-section2 {
+    margin: 14% 5% 10% 5%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .image-section3 {
+    margin: 15% 5% 10% 5%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .image-back1 img {
+    height: 100%;
+    transform: scaleX(-1);
+  }
+
+  .image-back2 img {
+    height: 100%;
+  }
+
+  .text-heading {
+    font-size: 26px;
+  }
+
+  .openbtn {
+    padding: 0;
+  }
+
+  .faq-new-section {
+    margin-top: 80px;
+  }
+
+  .footer-hide-on-mobile {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hide-on-large-screen {
+    display: none;
+  }
+}
+
+
