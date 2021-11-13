@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Stratum No1 black";
-  src: url("../resources/fonts/stratum/stratumblack.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumblack.ttf");
 }
 @font-face {
   font-family: "Stratum No1";
-  src: url("../resources/fonts/stratum/stratumregular.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumregular.ttf");
 }
 @font-face {
   font-family: "Stratum No1 bold";
-  src: url("../resources/fonts/stratum/stratumbold.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumbold.ttf");
 }
 @font-face {
   font-family: "Stratum No1 light";
-  src: url("../resources/fonts/stratum/stratumlight.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumlight.ttf");
 }
 @font-face {
   font-family: "SegoeUI black";
-  src: url("../resources/fonts/segoe/segoeuibl.ttf");
+  src: url("../newsite-kr/resources/fonts/segoe/segoeuibl.ttf");
 }
 
 @font-face {
   font-family: "SegoeUI light";
-  src: url("../resources/fonts/segoe/segoeuil.ttf");
+  src: url("../newsite-kr/resources/fonts/segoe/segoeuil.ttf");
 }
 
 body {

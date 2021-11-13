@@ -2,23 +2,23 @@
 @import url("https://p.typekit.net/p.css?s=1&k=wkt5rqz&ht=tk&f=32226.32227.32230.32231&a=13650290&app=typekit&e=css");
 @font-face {
   font-family: "Stratum No1";
-  src: url("../resources/fonts/stratum/stratumregular.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumregular.ttf");
 }
 @font-face {
   font-family: "Stratum No1 light";
-  src: url("../resources/fonts/stratum/stratumlight.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumlight.ttf");
 }
 @font-face {
   font-family: "Stratum No1 black";
-  src: url("../resources/fonts/stratum/stratumblack.ttf");
+  src: url("../newsite-kr/resources/fonts/stratum/stratumblack.ttf");
 }
 @font-face {
   font-family: "SegoeUI";
-  src: url("../resources/fonts/segoe/segoeui.ttf");
+  src: url("../newsite-kr/resources/fonts/segoe/segoeui.ttf");
 }
 @font-face {
   font-family: "SegoeUI black";
-  src: url("../resources/fonts/segoe/segoeuibl.ttf");
+  src: url("../newsite-kr/resources/fonts/segoe/segoeuibl.ttf");
 }
 
 html,
@@ -28,7 +28,7 @@ body,
 }
 
 body {
-  background: url(/resources/images/kr-af.jpg) no-repeat center center fixed;
+  background: url(/newsite-kr/resources/images/kr-af.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -731,7 +731,7 @@ figure.snip1192 .author h6 span {
 /* Specific CSS for home page new sections */
 
 .jumbotron {
-  background: url("/resources/images/testimonial/testimonial_1.jpg") no-repeat;
+  background: url("/newsite-kr/resources/images/testimonial/testimonial_1.jpg") no-repeat;
   background-size: cover;
   color: #fff;
   font-weight: 900;
@@ -799,7 +799,7 @@ figure.snip1192 .author h6 span {
 }
 .footer {
   background: #06263b;
-  background-image: url("/resources/images/footer-img.png");
+  background-image: url("/newsite-kr/resources/images/footer-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;

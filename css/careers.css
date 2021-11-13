@@ -241,7 +241,7 @@
 /* Start Mission page specific css*/
 
 .mission-img {
-  background-image: url("/resources/images/mission/mission-banner.jpg");
+  background-image: url("/newsite-kr/resources/images/mission/mission-banner.jpg");
   /*padding-bottom: 56.25%;*/
   position:relative;
   display:block;
@@ -257,7 +257,7 @@
 .partners-header {
   width: 100%;
   height: 50vh;
-  background: url("/resources/images/Partners.jpg") no-repeat;
+  background: url("/newsite-kr/resources/images/Partners.jpg") no-repeat;
   background-size: cover;
   display: flex;
   justify-content: flex-start;

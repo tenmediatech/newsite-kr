@@ -215,12 +215,12 @@ hr.newsline2 {
 }
 
 .carousel-indicators .carousel-control-prev-icon {
-    background-image: url(/resources/images/news/prev.png);
+    background-image: url(/newsite-kr/resources/images/news/prev.png);
     width: 32px;
 }
 
 .carousel-indicators .carousel-control-next-icon {
-    background-image: url(/resources/images/news/next.png);
+    background-image: url(/newsite-kr/resources/images/news/next.png);
     width: 32px;
 }
 
