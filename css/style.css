@@ -2,23 +2,23 @@
 @import url("https://p.typekit.net/p.css?s=1&k=wkt5rqz&ht=tk&f=32226.32227.32230.32231&a=13650290&app=typekit&e=css");
 @font-face {
   font-family: "Stratum No1";
-  src: url("../newsite-kr/resources/fonts/stratum/stratumregular.ttf");
+  src: url("/newsite-kr/resources/fonts/stratum/stratumregular.ttf");
 }
 @font-face {
   font-family: "Stratum No1 light";
-  src: url("../newsite-kr/resources/fonts/stratum/stratumlight.ttf");
+  src: url("/newsite-kr/resources/fonts/stratum/stratumlight.ttf");
 }
 @font-face {
   font-family: "Stratum No1 black";
-  src: url("../newsite-kr/resources/fonts/stratum/stratumblack.ttf");
+  src: url("/newsite-kr/resources/fonts/stratum/stratumblack.ttf");
 }
 @font-face {
   font-family: "SegoeUI";
-  src: url("../newsite-kr/resources/fonts/segoe/segoeui.ttf");
+  src: url("/newsite-kr/resources/fonts/segoe/segoeui.ttf");
 }
 @font-face {
   font-family: "SegoeUI black";
-  src: url("../newsite-kr/resources/fonts/segoe/segoeuibl.ttf");
+  src: url("/newsite-kr/resources/fonts/segoe/segoeuibl.ttf");
 }
 
 html,
