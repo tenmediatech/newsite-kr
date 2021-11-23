@@ -328,11 +328,6 @@ video {
   max-height: 700px;
 }
 
-.modal .modal-body video {
-  overflow-y: auto;
-  max-height: 460px;
-}
-
 
 .modal {
   margin-top: 5%;
@@ -521,6 +516,11 @@ video {
 
   .faq-new-section {
     margin-top: 80px;
+  }
+
+  .modal .modal-body video {
+    overflow-y: auto;
+    max-height: 315px;
   }
 
   .footer-hide-on-mobile {
