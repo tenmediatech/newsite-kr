@@ -518,11 +518,6 @@ video {
     margin-top: 80px;
   }
 
-  .modal .modal-body video {
-    overflow-y: auto;
-    max-height: 315px;
-  }
-
   .footer-hide-on-mobile {
     display: none;
   }
