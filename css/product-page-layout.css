@@ -518,6 +518,12 @@ video {
     margin-top: 80px;
   }
 
+  .modal .modal-body video {
+    overflow-y: auto;
+    width: 560px;
+    height: 315px;
+  }
+
   .footer-hide-on-mobile {
     display: none;
   }
